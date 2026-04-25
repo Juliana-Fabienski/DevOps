@@ -42,3 +42,4 @@ async def test_delete_estudante_negative():
 async def test_delete_estudante_positive():
     result = await delete_estudante(2)
     assert result
+    

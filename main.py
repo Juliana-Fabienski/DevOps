@@ -11,4 +11,4 @@ async def root():
 
 @app.get("/teste")
 async def funcao():
-    return {True, "num_random":random.randint(0, 600)}
+    return {True, "num_random":random.randint(0, 500)}
